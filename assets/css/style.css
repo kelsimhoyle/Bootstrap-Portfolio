@@ -1,0 +1,23 @@
+body {
+    background-image: url(../images/qbkls.png)
+}
+
+
+
+#portrait {
+    max-width: 20%;
+    height: auto;
+}
+
+.container {
+    max-width: 70%;
+    background-color: #fff;
+    margin-top: 2%;
+}
+
+header {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 2px solid;
+    margin: 0;
+}

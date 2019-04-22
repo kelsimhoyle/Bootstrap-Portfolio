@@ -4,41 +4,66 @@
 <head>
     <meta charset="utf-8" />
     <title>Kelsi Hoyle's Portfolio</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/minty/bootstrap.min.css" rel="stylesheet" integrity="sha384-9NlqO4dP5KfioUGS568UFwM3lbWf3Uj3Qb7FBHuIuhLoDp3ZgAqPE1/MYLEBPZYM" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/minty/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9NlqO4dP5KfioUGS568UFwM3lbWf3Uj3Qb7FBHuIuhLoDp3ZgAqPE1/MYLEBPZYM" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 
 <body>
+
     <header>
-        <div class="headerContent clearfix">
-            <h1>Kelsi Hoyle</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Kelsi Hoyle</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
                 </ul>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
 
-    <section class="mainContent">
-        <h2>About Me</h2>
-        <div class="content clearfix aboutMe">
-            <img src="assets/images/portrait.jpg" alt="portrait of Kelsi" id="portrait" />
-            <p>I am a mom turned developer. I began coding as a way to keep myself entertained and challenged during my
-                many
-                late nights
-                with a baby. It turned out that I found a passion in the puzzles and wizardry that I programming! I am
-                lucky enough to change my passion into a career!</p>
-            <p>When I am not learning and creating, you can find me hiking, cooking, and cuddling my two dogs. I love
-                exploring and the discovering!</p>
-            <p>Feel free to poke around to learn more about me and my many projects. Thank you for stopping by!</p>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>About Me</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <img src="assets/images/portrait.jpg" alt="portrait of Kelsi" id="portrait"
+                    class="img-thumbnail float-left" />
+                <p>I am a mom turned developer. I began coding as a way to keep myself entertained and challenged during
+                    my
+                    many
+                    late nights
+                    with a baby. It turned out that I found a passion in the puzzles and wizardry that I programming! I
+                    am
+                    lucky enough to change my passion into a career!</p>
+                <p>When I am not learning and creating, you can find me hiking, cooking, and cuddling my two dogs. I
+                    love
+                    exploring and the discovering!</p>
+                <p>Feel free to poke around to learn more about me and my many projects. Thank you for stopping by!</p>
+            </div>
         </div>
     </section>
 
-    <footer>
-        <p> Copyright &copy;</p>
-    </footer>
+    <div class="container-fluid bg-light sticky-bottom">
+        <footer class="card-footer">
+            <p> Copyright &copy;</p>
+        </footer>
+    </div>
 </body>
 
 
