@@ -1,8 +1,11 @@
 body {
-    background-image: url(../images/qbkls.png)
+    padding-bottom: 100px;
+    background-image: url(../images/qbkls.png);
 }
 
-
+.mainContent {
+    margin-bottom: 75px;
+}
 
 #portrait {
     max-width: 20%;
