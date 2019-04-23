@@ -1,10 +1,14 @@
 body {
-    padding-bottom: 100px;
+    padding-bottom: 8%;
     background-image: url(../images/qbkls.png);
 }
 
 .mainContent {
-    margin-bottom: 75px;
+    margin-bottom: 5%;
+}
+
+h2 {
+    padding: 1% 0;
 }
 
 #portrait {
